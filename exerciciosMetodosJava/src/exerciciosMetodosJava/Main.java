@@ -52,6 +52,16 @@ public class Main {
 
         double areaLosango = QuadrilateroRetorno.area(5f,5f);
         System.out.println("Área do losango: " + areaLosango);
+
+        // Controle Fluxo
+        ControleFluxo.ifFlecha();
+        ControleFluxo.ifSemFlecha();
+        ControleFluxo.ifFerias();
+        ControleFluxo.ifMenor();
+        ControleFluxo.switchSemana();
+        ControleFluxo.switchNumero();
+        ControleFluxo.switchFerias();
+
     }
 
 }
