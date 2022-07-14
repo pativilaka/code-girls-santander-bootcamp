@@ -42,7 +42,7 @@ public class ExercOrdenacaoSet {
 
         System.out.println();
 
-        System.out.println("Exiba a Ordem Natura (Por tempo de episódio)");
+        System.out.println("Exiba a Ordem Natural (Por tempo de episódio)");
         Set<Serie> minhasSeries2 = new TreeSet<>(minhasSeries1);
         for (Serie serie : minhasSeries2)
             System.out.println( serie.getNome() + " - " +
